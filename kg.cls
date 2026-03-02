@@ -167,7 +167,7 @@
 % Lang long
 \newcommand{\Langlong}[1]{\glsxtrlong{#1}}
 \newcommand{\Langlongdecl}[2]{\glslink{idx.#1}{\glsxtrlong{#1}#2}}
-\newcommand{\langlong}[1]{{\glsxtrusefield{#1}{useriii}}}
+\newcommand{\langlong}[1]{{\glslink{idx.#1}{\glsxtrusefield{#1}{useriii}}}}
 \newcommand{\langlongdecl}[2]{\glslink{idx.#1}{\glsxtrusefield{#1}{useriii}#2}}
 
 
